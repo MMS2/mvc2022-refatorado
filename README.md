@@ -38,48 +38,67 @@ O Controle extendido, tipo pente de ak47 do cod mobile... nao nao gosto de frifa
 
 Controle WEB de teste
 
-"
+<code>
 class Web extends Controles{
+   
    function index(){
+   
         $modelo = $this->modelo("se tiver pasta vai aqui nessa praga","testeModelo");
+   
         $modelo->gettest();
+   
         echo "TESTE DO METODO ASD";
+   
         $arr = ['teste'=>"testando Arraay"];
+   
         $this->html('teste',$arr);
+   
     }
+   
 }
-"
+   
+</code>
 
 Pronto a porra das classes de ajuda ja esta configurado pode chamar com o seguinde codigo
 VENHA CODIGO DA CLASSE VENHAAAA
 aconselho a usar sempre metodo estatico, porque? porque eu sou preguiçoso e nao quero por um monte de codigo
 e no estatico ficou mais bunitinho
 
-"
+<code>
 funcao qualqueruma(){
+   
     ...
+   
     Classe::cls(['aqui vai a classe, ela ta chamando em array entao se adapte a situação']);
 
+   
     continua seu codigo de bosta
+   
     ...
+   
 }
-"
+</code>
+
 arquivo da classe
-"
+
+<code>
 classe ClasseDeAjuda{
 
-
 static function t(){
+   
 .... bla bla bla a porra do seu codigo
+   
 }
 
 }
-"
+   
+</code>
+
 chamando a classe nos arquivos de html
 
-"
+<code>
 <?php $ClasseDeAjuda::t()?>
-"
+</code>
 Fazendo isso oque estiver na sua classe vai exibir para os mongos que estao acessando sua pagina porno
 
 
@@ -104,16 +123,23 @@ e chama que executa a Cuerie
 
 ta aqui como voce, cabaço, cu de apertar linguica vai usar
 
+<code>
 class TesteModelo extends Modelos{
-"
+   
 public function gettest()
+   
 {
+   
   $this->busca("aqui voce coloca aquela query duvidosa, pode por oque quiser até update se where");
+   
   return $this->chama(); // como o nome ja diz... CHAMAAAAA!!!
+   
 }
 
+   
 }
-"
+</code>
+
 como chama ele no controller ta la em cima so procurar
 
 
